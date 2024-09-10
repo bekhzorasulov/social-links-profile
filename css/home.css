@@ -1,0 +1,113 @@
+@import "./global.css";
+body {
+    background-color: black;
+}
+
+.profile__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 4rem;
+}
+
+.container {
+    margin: 10rem auto;
+    max-width: 38.4rem;
+    background-color: #1f1f1f;
+    border-radius: 1.2rem;
+}
+
+.infobox {
+    text-align: center;
+}
+
+.infobox__name {
+    font-weight: 600;
+    margin-top: 2.4rem;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.infobox__address {
+    margin-top: 0.4rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #c4f82a;
+}
+
+.infobox__article {
+    margin-top: 2.4rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.media-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1, 6rem;
+    margin-top: 2.4rem;
+}
+
+.media-box__link {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 0.8rem;
+    &:hover {
+        color: #333333;
+        background-color: #c4f82a;
+    }
+}
+
+.btn-one {
+    margin-bottom: 1.6rem;
+    padding: 1.2rem 12.75rem;
+}
+
+.btn-two {
+    padding: 1.2rem 9.45rem;
+    margin-bottom: 1.6rem;
+}
+
+.btn-three {
+    padding: 1.2rem 12.25rem;
+    margin-bottom: 1.6rem;
+}
+
+.btn-four {
+    padding: 1.2rem 12.7rem;
+    margin-bottom: 1.6rem;
+}
+
+.btn-five {
+    padding: 1.2rem 11.7rem;
+    margin-bottom: 1.6rem;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 37.2rem;
+    }
+    .btn-one {
+        padding: 1.2rem 11.5rem;
+    }
+    .btn-two {
+        padding: 1.2rem 8.2rem;
+    }
+    .btn-three {
+        padding: 1.2rem 11rem;
+    }
+    .btn-four {
+        padding: 1.2rem 11.45rem;
+    }
+    .btn-five {
+        padding: 1.2rem 10.45rem;
+    }
+}
